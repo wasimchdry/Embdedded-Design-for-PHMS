@@ -127,7 +127,7 @@
         </div>
         @endforeach
         <div class="row justify-content-center my-2">
-            <button class="nextBtn btn btn-lg" onclick="window.history.back()">Go Back</button>
+            <button class="nextBtn btn btn-lg my-5" onclick="window.history.back()">Go Back</button>
         </div>
 
         <!-- test -->

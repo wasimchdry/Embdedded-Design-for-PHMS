@@ -28,8 +28,9 @@ class PatientController extends Controller
     
     public function show(Request $request, $id)
     {
-        // dd($id);
+      
         $id = $request->input('id');
+        // dd($id);
         $patients = Patient::where('id', $id)->get();
         // dd(  $patients->isEmpty());
 
